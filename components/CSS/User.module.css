@@ -1,0 +1,56 @@
+.user
+{
+  display: flex;
+  align-items: center;
+  padding: 20px; 
+  cursor: pointer;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 60px;
+  transition: .5s;
+}
+
+.user__avatar
+{
+  position: relative;
+}
+
+.user > span
+{
+  margin-left: 15px;
+  font-family: var(--chatFont);
+  color: white;
+}
+
+.user__status
+{
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;  
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: rgba(153, 153, 153, 0.287) 2px solid;
+}
+
+.user:hover
+{
+  background-color: var(--blackOne);
+  padding: 20px;
+  margin: 20px;
+}
+
+.user:active
+{
+  box-shadow: var(--shadow);
+}
+
+.user__connected
+{
+  background-color: var(--greenOne);
+}
+
+.user__disconnect
+{
+  background-color: var(--blackThree);
+}

@@ -1,0 +1,30 @@
+.icon
+{
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray);
+  transition: .5s;
+  cursor: pointer;
+  border-radius: 100%;
+  position: relative;
+}
+
+.icon__button
+{
+  width: 22px;
+  height: 22px;
+}
+
+.icon:hover
+{
+  background-color: var(--blackThree);
+}
+
+.icon:active
+{
+  box-shadow: var(--shadow);
+}

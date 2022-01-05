@@ -1,0 +1,88 @@
+.auth
+{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--blackTwo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.auth__card
+{
+  background-color: var(--blackThree);
+  width: 80vw;
+  height: 80vh;
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.auth__title
+{
+  color: var(--greenOne);
+  font-family: var(--chatFont);
+  cursor: pointer;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.auth__title:hover
+{
+  text-decoration: underline;
+}
+
+.auth__form
+{
+  display: flex;
+  flex-direction: column;
+  flex: .8;
+}
+
+.auth__inputContainer
+{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.auth__inputContainer > input
+{
+  border: none;
+  outline: none;
+  background-color: var(--blackTwo);
+  padding: 15px;
+  width: 30vw;
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  font-family: var(--chatFont);
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+.auth__buttonSend
+{
+  border: none;
+  margin: 15px;
+  background-color: var(--blackThree);
+  box-shadow: var(--shadow);
+  padding: 15px;
+  border-radius: 30px;
+  color: var(--greenOne);
+  transition: .5s;
+  font-size: 18px;
+}
+
+.auth__buttonEnable 
+{
+  background-color: var(--greenOne);
+  color: var(--blackThree);
+}
